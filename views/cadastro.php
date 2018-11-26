@@ -29,14 +29,14 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" method="POST" action="<?php echo BASE_URL;?>cadastro/novo">
 				<span class="contact100-form-title">
 					Bem Vindo!
 				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Digite seu nome!">
 					<span class="label-input100">Nome</span>
-					<input class="input100" type="text" name="name" placeholder="Digite seu nome">
+					<input class="input100" type="text" name="nome" placeholder="Digite seu nome">
 					<span class="focus-input100"></span>
 				</div>
 
@@ -48,24 +48,23 @@
 
 				<div class="wrap-input100 validate-input" data-validate = "Mínimo 4 caracteres!">
 					<span class="label-input100">Senha</span>
-					<input class="input100" type="password" name="email" placeholder="Digite sua senha">
+					<input class="input100" type="password" name="pass" placeholder="Digite sua senha">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Mínimo 4 caracteres!">
-					<input class="input100" type="password" name="email" placeholder="Confirme sua senha">
+					<input class="input100" type="password" name="pass2" placeholder="Confirme sua senha">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
-						<button class="contact100-form-btn">
+						<input type="submit" class="contact100-form-btn" value="Cadastrar">
 							<span>
-								Cadastrar
 								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
 							</span>
-						</button>
+						</input>
 					</div>
 				</div>
 			</form>
