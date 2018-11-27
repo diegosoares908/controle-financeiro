@@ -6,13 +6,13 @@ global $db;
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/trabalho/");
+	define("BASE_URL", "http://localhost/controle-financeiro/");
 	$config['dbname'] = 'controle_financeiro';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 } else {
-	define("BASE_URL", "http://localhost/trabalho/");
+	define("BASE_URL", "http://localhost/controle-financeiro/");
 	$config['dbname'] = 'nova_loja';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
