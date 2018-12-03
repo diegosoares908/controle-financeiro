@@ -12,18 +12,18 @@
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a href="<?php echo BASE_URL ?>/trabalho/home"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                        <a href="<?php echo BASE_URL ?>"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                     </li>
                     <h3 class="menu-title">UI elements</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-exchange"></i>Lançamentos</a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-exchange"></i>Lançamentos</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-reply"></i><a href="#!/lancamentos/entrada">Cadastrar entrada</a></li>
                             <li><i class="fa fa-share"></i><a href="#!/lancamentos/saidas">Cadastrar saída</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-money"></i>Contas</a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-money"></i>Contas</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-university"></i><a href="#!/contas">Banco do Brasil</a></li>
                             <li><i class="fa fa-university"></i><a href="#!/contas">Bradesco</a></li>
@@ -31,7 +31,7 @@
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-credit-card"></i>Cartões</a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-credit-card"></i>Cartões</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-cc-mastercard"></i><a href="#!/cartoes">Nubank</a></li>
                             <li><i class="menu-icon fa fa-cc-visa"></i><a href="#!/cartoes">Caixa</a></li>

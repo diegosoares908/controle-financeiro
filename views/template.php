@@ -23,6 +23,7 @@
 		?>
 	</body>
 
+	<script>document.write('<base href="' + document.location + '" />');</script>
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap/popper.js"></script>
     <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap/bootstrap.min.js"></script>
@@ -38,6 +39,7 @@
     <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/app/controllers/addconta.ctrl.js"></script>
     <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/app/controllers/cartoes.ctrl.js"></script>
     <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/app/controllers/addcartao.ctrl.js"></script>
+    <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/app/controllers/dashboard.ctrl.js"></script>
 
     <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/home.js"></script>
     <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/chart.js/dist/Chart.bundle.min.js"></script>

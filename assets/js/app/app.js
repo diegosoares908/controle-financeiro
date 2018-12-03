@@ -31,7 +31,11 @@ angular.module('mainApp', ['ngRoute'])
 	        controller: 'addcartaoCtrl',
 	        controllerAs: 'addcart'
 	    })
-
+	    .when("/", {
+	        templateUrl: BASE_URL+'views/dashboard.php',
+	        controller: 'dashboardCtrl',
+	        controllerAs: 'dash'
+	    })
 	})
 
 	
